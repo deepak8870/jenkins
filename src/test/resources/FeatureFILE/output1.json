@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "insta login page testing",
+        "description": "",
+        "id": "insta-functionality-testing;insta-login-page-testing;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35858507400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the insta login page",
+            "match": {
+              "location": "Instastep.user_is_on_the_insta_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 707947400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter the  \"deepak_tricker\" and \"88708574\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deepak_tricker\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"88708574\"",
+                  "offset": 44
+                }
+              ],
+              "location": "Instastep.user_should_enter_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167212900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click the login button",
+            "match": {
+              "location": "Instastep.user_should_click_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should verify the success message",
+            "match": {
+              "location": "Instastep.user_should_verify_the_success_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "insta functionality testing",
+    "description": "",
+    "id": "insta-functionality-testing",
+    "keyword": "Feature",
+    "uri": "E:/free/Selenium/CucumberBase/src/test/resources/FeatureFILE/insta.feature",
+    "tags": []
+  }
+]
